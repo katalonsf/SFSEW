@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "2E6BE1251D254FF9C119E1027ABDBF73",
+  "keywordClasses": [
+    {
+      "name": "totp.microsoft",
+      "keywordMethods": [
+        {
+          "name": "generateTOTPCode",
+          "parameters": [
+            {
+              "name": "secret",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

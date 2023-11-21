@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STM-2485-Iteration5-BDD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7c21916-f6ca-4187-b608-d28523ada6d5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b344b471-38a0-4522-9994-0e326d3d8508</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b344b471-38a0-4522-9994-0e326d3d8508</id>
+      <masked>false</masked>
+      <name>NotSuccessfullyAdded</name>
+   </variable>
+</TestCaseEntity>

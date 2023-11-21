@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F0B3598E6325806930D681AF2F2ED7BF",
+  "keywordClasses": [
+    {
+      "name": "mfa.ReadMfa",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

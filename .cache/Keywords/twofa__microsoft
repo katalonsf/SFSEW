@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "540501344622058A891B3B3B1A42EFEF",
+  "keywordClasses": [
+    {
+      "name": "twofa.microsoft",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}
