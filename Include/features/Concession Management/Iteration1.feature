@@ -15,7 +15,7 @@ Background:
     And I search for Billing Account# 12345
     And I choose Concession from Dropdwn-List
     And I remove the concession for DXXX WXXX from Billing account
-    And I add a new concession in billing account for David Wrenn
+    And I add a new concession in billing account for DXXX WXXX
     And I config the options in Concession Management page
     And I click on Yes to add the concession
     And I verify that the phrase Successfuly Added present and take a full screenshot
