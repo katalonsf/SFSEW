@@ -14,7 +14,7 @@ Feature: Per field validation 1
 
   @Login, @LoginAsCFO
   
-  Scenario Outline: Validate Credit Card Payments via a SEW CSO Pulse Front End
+   Scenario Outline: Validate Credit Card Payments via a SEW CSO Pulse Front End
    
     And I click on Credit Card Type and select Visa for the customer
     And I enter credit card number for the customer

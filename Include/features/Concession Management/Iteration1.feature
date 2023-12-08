@@ -12,7 +12,8 @@ Background:
       
   Scenario Outline: Concession loaded successfully 
    
-    And I search for Billing Account# XXXX
+
+      And I search for Billing Account# XXXX
     And I Delete the unnecessary cookies to load concession button
     And I reload the page to click on concession button
     And I choose Concession 
