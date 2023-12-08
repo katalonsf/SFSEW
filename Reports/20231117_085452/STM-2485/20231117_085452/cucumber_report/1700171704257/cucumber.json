@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5457433500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24286982300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3556461800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13063952600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Search and search for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342817200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button on setup user page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Concession loaded successfully",
+        "description": "",
+        "id": "concession-management;concession-loaded-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15263852800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for Billing Account# 188051",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearchAll()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5892658900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I choose Concession from Dropdwn-List",
+            "match": {
+              "location": "STM2485Iteration1.clickToSeeAllItemsInList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to click on object \u0027Object Repository/IFrames/Concession/Next-Button\u0027\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\r\n\tat STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:129)\r\n\tat ✽.I remove the concession for David Wrenn from Billing account(C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485/Iteration1.feature:16)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027Object Repository/IFrames/Concession/Next-Button\u0027 located by \u0027//button[normalize-space()\u003d\u0027Next\u0027]\n\u0027 not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\r\n\tat STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:129)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1700171692605.run(TempTestSuite1700171692605.groovy:36)\r\n",
+              "duration": 41822259700,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I remove the concession for David Wrenn from Billing account",
+            "match": {
+              "location": "STM2485Iteration1.clickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I add a new concession in billing account for David Wrenn",
+            "match": {
+              "location": "STM2485Iteration1.checkOnDavidWrenn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I config the options in Concession Management page",
+            "match": {
+              "location": "STM2485Iteration1.checkPrivacyStatement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on Yes to add the concession",
+            "match": {
+              "location": "STM2485Iteration1.checkRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I verify that the phrase Successfuly Added present and take a full screenshot",
+            "match": {
+              "location": "STM2485Iteration1.verifyPhraseIsPresent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I click on the Finish Button",
+            "match": {
+              "location": "STM2485Iteration1.clickOnFinishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I take a full screenshot and close the browser",
+            "match": {
+              "location": "STM2485Iteration1.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management",
+    "description": "",
+    "id": "concession-management",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485/Iteration1.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2267829600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20193526900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6155847600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10586608600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Search and search for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357160900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button on setup user page for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Concession not loaded successfully",
+        "description": "",
+        "id": "concession-management-negative;concession-not-loaded-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14430520700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search for Billing Account# 1834935",
+            "match": {
+              "location": "STM2485Iteration5.clickOnSearchAll()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4386841300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I choose Concession from Dropdwn-List- for negative scenario",
+            "match": {
+              "location": "STM2485Iteration5.clickToDropdownList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20619193200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I create a new concession for Justin-Halcon-Fleur-Colcheedas",
+            "match": {
+              "location": "STM2485Iteration5.clickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10830486900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas",
+            "match": {
+              "location": "STM2485Iteration5.checkOnDavidWrenn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10318490300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Yes,add concession radio button to procced the progress",
+            "match": {
+              "location": "STM2485Iteration5.checkPrivacyStatement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1728580200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I capture the text which is the concession was not successfully added",
+            "match": {
+              "location": "STM2485Iteration5.checkRadioButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login,"
+          },
+          {
+            "name": "@LoginAsDiana"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management negative",
+    "description": "",
+    "id": "concession-management-negative",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Concession Management/Iteration5.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,117 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STM-2485,Chrome 119.0.0.0,,,2023-11-14 11:08:24,2023-11-14 11:11:28,3m - 3.407s,PASSED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1,Chrome 119.0.0.0,,,2023-11-14 11:08:24,2023-11-14 11:10:01,1m - 36.505s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-14 11:08:25,2023-11-14 11:08:28,2.570s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-14 11:08:28,2023-11-14 11:08:28,0.168s,PASSED
+"navigateToUrl(""https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home"")",Chrome 119.0.0.0,,,2023-11-14 11:08:28,2023-11-14 11:08:29,1.047s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-14 11:08:29,2023-11-14 11:08:29,0.332s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/Input-Username""))",Chrome 119.0.0.0,,,2023-11-14 11:08:29,2023-11-14 11:08:30,0.862s,PASSED
+"setText(findTestObject(""Page_Login  Salesforce/input-username-Text""), ""hamid.samavat@kjr.com.au"")",Chrome 119.0.0.0,,,2023-11-14 11:08:30,2023-11-14 11:08:31,0.713s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/input-username-next""))",Chrome 119.0.0.0,,,2023-11-14 11:08:31,2023-11-14 11:08:31,0.392s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/input_Password_pw""))",Chrome 119.0.0.0,,,2023-11-14 11:08:31,2023-11-14 11:08:32,1.087s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Salesforce/input_Password_pw""), ""1SfOns6koWoi404fwi/OCQ=="")",Chrome 119.0.0.0,,,2023-11-14 11:08:32,2023-11-14 11:08:33,0.427s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Salesforce/input_Password_Login""))",Chrome 119.0.0.0,,,2023-11-14 11:08:33,2023-11-14 11:08:34,0.859s,PASSED
+delay(15),Chrome 119.0.0.0,,,2023-11-14 11:08:34,2023-11-14 11:08:49,15.037s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/Yes button""))",Chrome 119.0.0.0,,,2023-11-14 11:08:49,2023-11-14 11:08:56,6.963s,PASSED
+"click(findTestObject(""home page/Gear icon""))",Chrome 119.0.0.0,,,2023-11-14 11:08:56,2023-11-14 11:08:58,2.212s,PASSED
+"click(findTestObject(""home page/Setup""))",Chrome 119.0.0.0,,,2023-11-14 11:08:58,2023-11-14 11:08:59,1.656s,PASSED
+"click(findTestObject(""Home-Setup/Search""))",Chrome 119.0.0.0,,,2023-11-14 11:08:59,2023-11-14 11:09:01,1.922s,PASSED
+switchToWindowIndex(1),Chrome 119.0.0.0,,,2023-11-14 11:09:01,2023-11-14 11:09:01,0.033s,PASSED
+"setText(findTestObject(""Home-Setup/Search-add-values""), ""Diana Turney"")",Chrome 119.0.0.0,,,2023-11-14 11:09:01,2023-11-14 11:09:04,2.306s,PASSED
+"sendKeys(findTestObject(""Home-Setup/Search-add-values""), Keys.chord(ENTER))",Chrome 119.0.0.0,,,2023-11-14 11:09:04,2023-11-14 11:09:06,2.476s,PASSED
+"waitForElementClickable(findTestObject(""Home-Setup/Diana Turney""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:06,2023-11-14 11:09:10,3.557s,PASSED
+"click(findTestObject(""Home-Setup/Diana Turney""))",Chrome 119.0.0.0,,,2023-11-14 11:09:10,2023-11-14 11:09:10,0.379s,PASSED
+"waitForElementPresent(findTestObject(""IFrames/setup-users""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:10,2023-11-14 11:09:12,1.585s,PASSED
+"switchToFrame(findTestObject(""IFrames/setup-users""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:12,2023-11-14 11:09:12,0.385s,PASSED
+"click(findTestObject(""IFrames/login button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:12,2023-11-14 11:09:12,0.301s,PASSED
+switchToDefaultContent(),Chrome 119.0.0.0,,,2023-11-14 11:09:12,2023-11-14 11:09:12,0.031s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-14 11:09:12,2023-11-14 11:09:22,10.005s,PASSED
+"click(findTestObject(""Service-Console/search catagory""))",Chrome 119.0.0.0,,,2023-11-14 11:09:22,2023-11-14 11:09:23,0.409s,PASSED
+"click(findTestObject(""Service-Console/Billing-Account-Search-Box""))",Chrome 119.0.0.0,,,2023-11-14 11:09:23,2023-11-14 11:09:23,0.652s,PASSED
+"waitForElementPresent(findTestObject(""Service-Console/Search box""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:23,2023-11-14 11:09:24,0.466s,PASSED
+"setText(findTestObject(""Service-Console/Search box""), ""188051"")",Chrome 119.0.0.0,,,2023-11-14 11:09:24,2023-11-14 11:09:25,0.718s,PASSED
+"sendKeys(findTestObject(""Service-Console/Search box""), Keys.chord(ENTER))",Chrome 119.0.0.0,,,2023-11-14 11:09:25,2023-11-14 11:09:26,1.208s,PASSED
+"waitForElementClickable(findTestObject(""Service-Console/Billing-Account""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:26,2023-11-14 11:09:27,1.098s,PASSED
+"elementsWithText = getWebDriver().findElements(By.xpath(""//a[@title=""188051""]""))",Chrome 119.0.0.0,,,2023-11-14 11:09:27,2023-11-14 11:09:27,0.280s,PASSED
+if (elementsWithText.size() > 0),Chrome 119.0.0.0,,,2023-11-14 11:09:27,2023-11-14 11:09:27,0.083s,PASSED
+"click(findTestObject(""Billing-Account-Num/Button-List/Button-List-Dropdwn""))",Chrome 119.0.0.0,,,2023-11-14 11:09:27,2023-11-14 11:09:30,2.422s,PASSED
+"click(findTestObject(""Billing-Account-Num/Button-List/Concession""))",Chrome 119.0.0.0,,,2023-11-14 11:09:30,2023-11-14 11:09:31,0.783s,PASSED
+"switchToFrame(findTestObject(""IFrames/Concession/Concession-Managment""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:09:31,2023-11-14 11:09:32,1.433s,PASSED
+"check(findTestObject(""IFrames/Concession/Yes-Radio-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:32,2023-11-14 11:09:33,0.956s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:33,2023-11-14 11:09:33,0.199s,PASSED
+"check(findTestObject(""IFrames/Concession/Yes-Remove-Radio-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:33,2023-11-14 11:09:35,1.830s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:35,2023-11-14 11:09:35,0.177s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:35,2023-11-14 11:09:41,6.377s,PASSED
+delay(10),Chrome 119.0.0.0,,,2023-11-14 11:09:41,2023-11-14 11:09:52,10.004s,PASSED
+"check(findTestObject(""IFrames/Concession/David-Wrenn""))",Chrome 119.0.0.0,,,2023-11-14 11:09:52,2023-11-14 11:09:52,0.178s,PASSED
+"click(findTestObject(""IFrames/Concession/Concession-Type""))",Chrome 119.0.0.0,,,2023-11-14 11:09:52,2023-11-14 11:09:52,0.235s,PASSED
+"click(findTestObject(""IFrames/Concession/Account-Holder""))",Chrome 119.0.0.0,,,2023-11-14 11:09:52,2023-11-14 11:09:52,0.142s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:52,2023-11-14 11:09:52,0.159s,PASSED
+"check(findTestObject(""IFrames/Concession/Privacy-Statement-CheckBox""))",Chrome 119.0.0.0,,,2023-11-14 11:09:52,2023-11-14 11:09:53,0.557s,PASSED
+"setText(findTestObject(""IFrames/Concession/Concession-Card-Num""), ""305237600C"")",Chrome 119.0.0.0,,,2023-11-14 11:09:53,2023-11-14 11:09:53,0.263s,PASSED
+"click(findTestObject(""IFrames/Concession/Concession-Card-Type""))",Chrome 119.0.0.0,,,2023-11-14 11:09:53,2023-11-14 11:09:53,0.242s,PASSED
+"click(findTestObject(""IFrames/Concession/Pensioner-Concession-Card""))",Chrome 119.0.0.0,,,2023-11-14 11:09:53,2023-11-14 11:09:54,0.218s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:54,2023-11-14 11:09:54,0.192s,PASSED
+"check(findTestObject(""IFrames/Concession/Yes-Add-Concession-Radio-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:54,2023-11-14 11:09:55,1.491s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:09:55,2023-11-14 11:09:55,0.153s,PASSED
+"verifyElementPresent(findTestObject(""IFrames/Concession/Successfuly-Added""), 0)",Chrome 119.0.0.0,,,2023-11-14 11:09:55,2023-11-14 11:10:00,4.426s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:10:00,2023-11-14 11:10:00,0.163s,PASSED
+"click(findTestObject(""IFrames/Concession/Finish""))",Chrome 119.0.0.0,,,2023-11-14 11:10:00,2023-11-14 11:10:00,0.257s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-14 11:10:00,2023-11-14 11:10:01,0.817s,PASSED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5,Chrome 119.0.0.0,,,2023-11-14 11:10:01,2023-11-14 11:11:28,1m - 26.581s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2023-11-14 11:10:02,2023-11-14 11:10:03,1.504s,PASSED
+maximizeWindow(),Chrome 119.0.0.0,,,2023-11-14 11:10:03,2023-11-14 11:10:03,0.133s,PASSED
+"navigateToUrl(""https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home"")",Chrome 119.0.0.0,,,2023-11-14 11:10:03,2023-11-14 11:10:04,0.833s,PASSED
+"waitForPageLoad(10, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-14 11:10:04,2023-11-14 11:10:04,0.192s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/Input-Username""))",Chrome 119.0.0.0,,,2023-11-14 11:10:04,2023-11-14 11:10:05,0.878s,PASSED
+"setText(findTestObject(""Page_Login  Salesforce/input-username-Text""), ""hamid.samavat@kjr.com.au"")",Chrome 119.0.0.0,,,2023-11-14 11:10:05,2023-11-14 11:10:06,0.714s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/input-username-next""))",Chrome 119.0.0.0,,,2023-11-14 11:10:06,2023-11-14 11:10:06,0.390s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/input_Password_pw""))",Chrome 119.0.0.0,,,2023-11-14 11:10:06,2023-11-14 11:10:07,1.139s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Salesforce/input_Password_pw""), ""1SfOns6koWoi404fwi/OCQ=="")",Chrome 119.0.0.0,,,2023-11-14 11:10:07,2023-11-14 11:10:08,0.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Salesforce/input_Password_Login""))",Chrome 119.0.0.0,,,2023-11-14 11:10:08,2023-11-14 11:10:09,0.770s,PASSED
+delay(15),Chrome 119.0.0.0,,,2023-11-14 11:10:09,2023-11-14 11:10:24,15.011s,PASSED
+"click(findTestObject(""Page_Login  Salesforce/Yes button""))",Chrome 119.0.0.0,,,2023-11-14 11:10:24,2023-11-14 11:10:24,0.570s,PASSED
+"click(findTestObject(""home page/Gear icon""))",Chrome 119.0.0.0,,,2023-11-14 11:10:24,2023-11-14 11:10:30,5.980s,PASSED
+"click(findTestObject(""home page/Setup""))",Chrome 119.0.0.0,,,2023-11-14 11:10:30,2023-11-14 11:10:31,0.673s,PASSED
+"click(findTestObject(""Home-Setup/Search""))",Chrome 119.0.0.0,,,2023-11-14 11:10:31,2023-11-14 11:10:33,1.849s,PASSED
+switchToWindowIndex(1),Chrome 119.0.0.0,,,2023-11-14 11:10:33,2023-11-14 11:10:33,0.053s,PASSED
+"setText(findTestObject(""Home-Setup/Search-add-values""), ""Diana Turney"")",Chrome 119.0.0.0,,,2023-11-14 11:10:33,2023-11-14 11:10:34,1.617s,PASSED
+"sendKeys(findTestObject(""Home-Setup/Search-add-values""), Keys.chord(ENTER))",Chrome 119.0.0.0,,,2023-11-14 11:10:34,2023-11-14 11:10:37,2.398s,PASSED
+"waitForElementClickable(findTestObject(""Home-Setup/Diana Turney""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:10:37,2023-11-14 11:10:40,3.603s,PASSED
+"click(findTestObject(""Home-Setup/Diana Turney""))",Chrome 119.0.0.0,,,2023-11-14 11:10:40,2023-11-14 11:10:41,0.371s,PASSED
+"waitForElementPresent(findTestObject(""IFrames/setup-users""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:10:41,2023-11-14 11:10:42,1.580s,PASSED
+"switchToFrame(findTestObject(""IFrames/setup-users""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:10:42,2023-11-14 11:10:43,0.400s,PASSED
+"click(findTestObject(""IFrames/login button""))",Chrome 119.0.0.0,,,2023-11-14 11:10:43,2023-11-14 11:10:43,0.242s,PASSED
+switchToDefaultContent(),Chrome 119.0.0.0,,,2023-11-14 11:10:43,2023-11-14 11:10:43,0.028s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-14 11:10:43,2023-11-14 11:10:53,10.014s,PASSED
+"click(findTestObject(""Service-Console/search catagory""))",Chrome 119.0.0.0,,,2023-11-14 11:10:53,2023-11-14 11:10:53,0.438s,PASSED
+"click(findTestObject(""Service-Console/Billing-Account-Search-Box""))",Chrome 119.0.0.0,,,2023-11-14 11:10:53,2023-11-14 11:10:54,0.756s,PASSED
+"waitForElementPresent(findTestObject(""Service-Console/Search box""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:10:54,2023-11-14 11:10:55,0.472s,PASSED
+"setText(findTestObject(""Service-Console/Search box""), ""1834935"")",Chrome 119.0.0.0,,,2023-11-14 11:10:55,2023-11-14 11:10:55,0.711s,PASSED
+"sendKeys(findTestObject(""Service-Console/Search box""), Keys.chord(ENTER))",Chrome 119.0.0.0,,,2023-11-14 11:10:55,2023-11-14 11:10:56,0.904s,PASSED
+"waitForElementClickable(findTestObject(""Service-Console/Billing-Account""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:10:56,2023-11-14 11:10:57,1.033s,PASSED
+"elementsWithText = getWebDriver().findElements(By.xpath(""//a[@title=""1834935""]""))",Chrome 119.0.0.0,,,2023-11-14 11:10:57,2023-11-14 11:10:58,0.279s,PASSED
+if (elementsWithText.size() > 0),Chrome 119.0.0.0,,,2023-11-14 11:10:58,2023-11-14 11:10:58,0.083s,PASSED
+"click(findTestObject(""Billing-Account-Num/Button-List/Button-List-Dropdwn""))",Chrome 119.0.0.0,,,2023-11-14 11:10:58,2023-11-14 11:11:00,2.043s,PASSED
+"click(findTestObject(""Billing-Account-Num/Button-List/Concession""))",Chrome 119.0.0.0,,,2023-11-14 11:11:00,2023-11-14 11:11:00,0.515s,PASSED
+"switchToFrame(findTestObject(""IFrames/Concession/Concession-Managment""), 10)",Chrome 119.0.0.0,,,2023-11-14 11:11:00,2023-11-14 11:11:02,1.502s,PASSED
+delay(10),Chrome 119.0.0.0,,,2023-11-14 11:11:02,2023-11-14 11:11:12,10.013s,PASSED
+"check(findTestObject(""IFrames/Concession/Justin-Halcon-Fleur-Colcheedas""))",Chrome 119.0.0.0,,,2023-11-14 11:11:12,2023-11-14 11:11:12,0.183s,PASSED
+"click(findTestObject(""IFrames/Concession/Concession-Type""))",Chrome 119.0.0.0,,,2023-11-14 11:11:12,2023-11-14 11:11:12,0.227s,PASSED
+"click(findTestObject(""IFrames/Concession/Account-Holder""))",Chrome 119.0.0.0,,,2023-11-14 11:11:12,2023-11-14 11:11:12,0.142s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:11:12,2023-11-14 11:11:12,0.205s,PASSED
+"check(findTestObject(""IFrames/Concession/Privacy-Statement-CheckBox""))",Chrome 119.0.0.0,,,2023-11-14 11:11:12,2023-11-14 11:11:13,0.716s,PASSED
+"setText(findTestObject(""IFrames/Concession/Concession-Card-Num""), ""4035324226C"")",Chrome 119.0.0.0,,,2023-11-14 11:11:13,2023-11-14 11:11:13,0.256s,PASSED
+"click(findTestObject(""IFrames/Concession/Concession-Card-Type""))",Chrome 119.0.0.0,,,2023-11-14 11:11:13,2023-11-14 11:11:14,0.164s,PASSED
+"click(findTestObject(""IFrames/Concession/Health-Care-Card""))",Chrome 119.0.0.0,,,2023-11-14 11:11:14,2023-11-14 11:11:14,0.131s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:11:14,2023-11-14 11:11:14,0.173s,PASSED
+"check(findTestObject(""IFrames/Concession/Yes-Add-Concession-Radio-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:11:14,2023-11-14 11:11:15,1.334s,PASSED
+"click(findTestObject(""IFrames/Concession/Next-Button""))",Chrome 119.0.0.0,,,2023-11-14 11:11:15,2023-11-14 11:11:15,0.169s,PASSED
+delay(10),Chrome 119.0.0.0,,,2023-11-14 11:11:15,2023-11-14 11:11:25,10.003s,PASSED
+"verifyElementPresent(findTestObject(""IFrames/Concession/Not-Successfully-Added""), 0)",Chrome 119.0.0.0,,,2023-11-14 11:11:25,2023-11-14 11:11:26,0.112s,PASSED
+"NotSuccessfullyAdded = getText(findTestObject(""IFrames/Concession/Not-Successfully-Added""))",Chrome 119.0.0.0,,,2023-11-14 11:11:26,2023-11-14 11:11:26,0.104s,PASSED
+"out.println(NotSuccessfullyAdded + ""****"")",Chrome 119.0.0.0,,,2023-11-14 11:11:26,2023-11-14 11:11:26,0.019s,PASSED
+takeFullPageScreenshot(),Chrome 119.0.0.0,,,2023-11-14 11:11:26,2023-11-14 11:11:27,1.146s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2023-11-14 11:11:27,2023-11-14 11:11:28,0.810s,PASSED

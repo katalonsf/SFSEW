@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Per Field Validation,Chrome 119.0.0.0,,,2023-11-20 09:35:54,2023-11-20 09:40:43,4m - 48.479s,PASSED
+,,,,,,,
+Test Cases/Per-Field-Validation/STM-2420,Chrome 119.0.0.0,,,2023-11-20 09:35:55,2023-11-20 09:38:23,2m - 28.148s,PASSED
+"runFeatureFile(""Include/features/Per Field Validation/STM-2420.feature"")",Chrome 119.0.0.0,,,2023-11-20 09:35:55,2023-11-20 09:38:23,2m - 27.531s,PASSED
+,,,,,,,
+Test Cases/Per-Field-Validation/STM-3287,Chrome 119.0.0.0,,,2023-11-20 09:38:23,2023-11-20 09:40:43,2m - 19.983s,PASSED
+"runFeatureFile(""Include/features/Per Field Validation/STM-3287.feature"")",Chrome 119.0.0.0,,,2023-11-20 09:38:23,2023-11-20 09:40:43,2m - 19.723s,PASSED

@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4239183400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21714396200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4055271300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10936074600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Search and search for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342370100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button on setup user page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Concession loaded successfully",
+        "description": "",
+        "id": "concession-management;concession-loaded-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14819756600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for Billing Account# 188051",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearchAll()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4662675100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I choose Concession from Dropdwn-List",
+            "match": {
+              "location": "STM2485Iteration1.clickToSeeAllItemsInList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19191950900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I remove the concession for David Wrenn from Billing account",
+            "match": {
+              "location": "STM2485Iteration1.clickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651972700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add a new concession in billing account for David Wrenn",
+            "match": {
+              "location": "STM2485Iteration1.checkOnDavidWrenn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1254455000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I config the options in Concession Management page",
+            "match": {
+              "location": "STM2485Iteration1.checkPrivacyStatement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1764841800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Yes to add the concession",
+            "match": {
+              "location": "STM2485Iteration1.checkRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15040683200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify that the phrase Successfuly Added present and take a full screenshot",
+            "match": {
+              "location": "STM2485Iteration1.verifyPhraseIsPresent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542666000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the Finish Button",
+            "match": {
+              "location": "STM2485Iteration1.clickOnFinishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477160700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I take a full screenshot and close the browser",
+            "match": {
+              "location": "STM2485Iteration1.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management",
+    "description": "",
+    "id": "concession-management",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485/Iteration1.feature",
+    "tags": []
+  }
+]

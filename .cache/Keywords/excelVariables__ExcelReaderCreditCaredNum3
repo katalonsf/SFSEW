@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BC512FEE34D9A97116699A2FC09378F5",
+  "keywordClasses": [
+    {
+      "name": "excelVariables.ExcelReaderCreditCaredNum3",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

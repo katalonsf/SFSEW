@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STM-2485,,,,2023-11-15 13:53:24,2023-11-15 13:53:26,2.180s,PASSED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD,,,,2023-11-15 13:53:24,2023-11-15 13:53:26,1.690s,PASSED
+"runFeatureFile(""Include/features/STM-2485/Iteration1.feature"")",,,,2023-11-15 13:53:25,2023-11-15 13:53:26,1.307s,PASSED

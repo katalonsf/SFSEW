@@ -1,0 +1,735 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "d1129852-5bce-4607-aa54-955d18d85d99",
+        "line": 3,
+        "name": "Concession loaded successfully",
+        "description": "",
+        "id": "concession-management;concession-loaded-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3802953000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open a browser",
+            "match": {
+              "location": "STM2485.openBrowser()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "307a770b-eebb-4102-b169-693f54157ba0"
+          },
+          {
+            "result": {
+              "duration": 447296800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I maximize the window",
+            "match": {
+              "location": "STM2485.maximizeWindow()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "9b5e2d7a-b27f-46c4-bf87-bc01aebea96d"
+          },
+          {
+            "result": {
+              "duration": 841894200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the SF homepage",
+            "match": {
+              "location": "STM2485.navigateToSFHomepage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ff7b9ffc-eb7a-4e4d-a5e3-72f61fc88ead"
+          },
+          {
+            "result": {
+              "duration": 839994900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I wait for the page to load",
+            "match": {
+              "location": "STM2485.waitForPageToLoad()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "376f0647-b62f-418e-ae0e-0f11e6028c48"
+          },
+          {
+            "result": {
+              "duration": 627016200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on username",
+            "match": {
+              "location": "STM2485.clickOnUsername()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1f0759bc-4c4e-498e-8e14-a2aaad32c83a"
+          },
+          {
+            "result": {
+              "duration": 852972900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"hamid.samavat@kJr.com.au\" as the username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hamid.samavat@kJr.com.au\"",
+                  "offset": 8
+                }
+              ],
+              "location": "STM2485.enterUsername(Object)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "57742598-5027-4031-9053-9ae2ddb54d9b"
+          },
+          {
+            "result": {
+              "duration": 378083400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Next button1",
+            "match": {
+              "location": "STM2485.clickOnNextButton1()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "006be528-6699-484d-a6d0-e0da2a65d38c"
+          },
+          {
+            "result": {
+              "duration": 1226312400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on password",
+            "match": {
+              "location": "STM2485.clickOnPassword()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "14af2d10-dc18-4c94-8809-dc11c571331c"
+          },
+          {
+            "result": {
+              "duration": 455243700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my password",
+            "match": {
+              "location": "STM2485.enterPassword()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e5d0c4f4-14ca-4068-b2d6-82aa18d7676f"
+          },
+          {
+            "result": {
+              "duration": 1019697000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the login button1",
+            "match": {
+              "location": "STM2485.clickOnLoginButton1()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "80d9ae0d-ae7b-4e41-bd52-b19d665d49c0"
+          },
+          {
+            "result": {
+              "duration": 15051893800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I wait for 15 seconds",
+            "match": {
+              "location": "STM2485.waitForSeconds2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4edf2b0a-84fb-451a-8aba-583bb137a54c"
+          },
+          {
+            "result": {
+              "duration": 682552400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Yes button",
+            "match": {
+              "location": "STM2485.clickOnYesButton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0e96c76e-7a55-4e2c-978c-4a9335336e50"
+          },
+          {
+            "result": {
+              "duration": 6497873700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Gear icon",
+            "match": {
+              "location": "STM2485.clickOnGearIcon()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "36e0a89c-7ccd-4ca8-9c76-6f09b8a2c6bf"
+          },
+          {
+            "result": {
+              "duration": 556633000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the Setup",
+            "match": {
+              "location": "STM2485.clickOnSetup()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d33d2a2a-9434-4af6-be2e-8a10f96b8c1b"
+          },
+          {
+            "result": {
+              "duration": 2977264100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the Search",
+            "match": {
+              "location": "STM2485.clickOnSearch()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "40b4dbe1-ec30-48c0-a853-2aa91075bfd1"
+          },
+          {
+            "result": {
+              "duration": 48977100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I switch to new tab",
+            "match": {
+              "location": "STM2485.switchToNewTab()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4320654e-c6e7-4552-b9d3-bf19160488c3"
+          },
+          {
+            "result": {
+              "duration": 860261700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter Diana Turney into the Search box",
+            "match": {
+              "location": "STM2485.enterSearchText1()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7c2bc017-d0d3-424f-861f-d72dbe62bf11"
+          },
+          {
+            "result": {
+              "duration": 1151969900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I press the Enter key1",
+            "match": {
+              "location": "STM2485.pressEnterKey2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7a96866b-ef56-4ee6-ae01-5c9b5d61d1b7"
+          },
+          {
+            "result": {
+              "duration": 2782432600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I wait for couple of seconds1",
+            "match": {
+              "location": "STM2485.waitForSeconds3()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "400e6ee4-6fa9-4f54-acc1-94b62cc79c77"
+          },
+          {
+            "result": {
+              "duration": 382173600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Diana Turney",
+            "match": {
+              "location": "STM2485.clickOnElementWithId()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1c170bd4-69ec-4088-bbc8-4d36797cafb2"
+          },
+          {
+            "result": {
+              "duration": 1621456600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I wait for couple of seconds2",
+            "match": {
+              "location": "STM2485.waitForSeconds4()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "cd0a14a3-3b0b-4952-8ba4-aa3be73900b5"
+          },
+          {
+            "result": {
+              "duration": 534398900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I switch to the frame",
+            "match": {
+              "location": "STM2485.switchToFrame()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "189a0746-e06c-44c2-9386-a94c381381f8"
+          },
+          {
+            "result": {
+              "duration": 363925700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the login button2",
+            "match": {
+              "location": "STM2485.clickOnLoginButton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "35304536-a61a-4b20-9fa4-797f3ab57daf"
+          },
+          {
+            "result": {
+              "duration": 35004100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I switch to the default content",
+            "match": {
+              "location": "STM2485.switchToDefaultContent()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6eee824f-2e45-4813-a125-9166673bc91c"
+          },
+          {
+            "result": {
+              "duration": 10018898400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I wait for couple of seconds3",
+            "match": {
+              "location": "STM2485.waitForSeconds5()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "72b7ce0f-cc35-4e92-93a7-75feb5ebe917"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to click on object \u0027Object Repository/Service-Console/search catagory\u0027\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\r\n\tat STM2485.clickOnSearchAll(STM2485.groovy:202)\r\n\tat ✽.I click on the Search:All(C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485.feature:29)\r\nCaused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027Object Repository/Service-Console/search catagory\u0027 located by \u0027//*[@id\u003d\"combobox-input-8\"]\u0027 not found\r\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\r\n\tat STM2485.clickOnSearchAll(STM2485.groovy:202)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\r\n\tat STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1700001647033.run(TempTestSuite1700001647033.groovy:36)\r\n",
+              "duration": 31443840100,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I click on the Search:All",
+            "match": {
+              "location": "STM2485.clickOnSearchAll()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "36b3a92a-92d8-4726-8590-9d7e3b54435d"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I click on the Billing-Account",
+            "match": {
+              "location": "STM2485.clickOnBillingAccount()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ad19eeaa-35c0-4794-a018-450138437b4a"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "I wait for couple of seconds4",
+            "match": {
+              "location": "STM2485.waitForSeconds6()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d5005682-804b-4537-8094-b0e759e92ab8"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I enter 188051 into the Search box",
+            "match": {
+              "location": "STM2485.enterSearchText2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "044f2dad-dd97-40fb-9f98-6bdbea6829ec"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I press the Enter key2",
+            "match": {
+              "location": "STM2485.pressEnterKey1()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fafc27ce-e576-4804-b493-76486325f21e"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I wait for couple of seconds5",
+            "match": {
+              "location": "STM2485.waitForSeconds7()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1bf01eff-0b78-4732-ba20-f8b1d74f3687"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I click on the Billing Acount Number \"188051\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"188051\"",
+                  "offset": 37
+                }
+              ],
+              "location": "STM2485.clickOnElementWithId2(Object)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "218d1cc2-5ee6-48af-9366-3e69dceef0ae"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I click on the Button-Dropdwn-List",
+            "match": {
+              "location": "STM2485.clickToSeeAllItemsInList()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "646a71ec-7867-4c5d-a901-d16f4e6429f1"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I click on the Concession",
+            "match": {
+              "location": "STM2485.clickFromDropdownList()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "97550075-02ca-4c56-b403-5d6a88d4816a"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "I switch to the frame for the second time",
+            "match": {
+              "location": "STM2485.switchToFrame2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f6b9cf9e-b9ff-4c28-b40a-0a5ef665c921"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I click on the Yes Radio Button2",
+            "match": {
+              "location": "STM2485.clickOnNextButton2()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a7bcce30-551c-44dd-8517-80e41b7f8cd4"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I click on the Next Button3",
+            "match": {
+              "location": "STM2485.clickOnNextButton3()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7a8369fd-495f-4010-852f-3156e85547e4"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I click on the Yes-Remove-This-Concession-Radio-Button",
+            "match": {
+              "location": "STM2485.clickOnConcession()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e56baf90-e58b-46b7-a6ae-8ad2a378f2d5"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click on the Next Button4",
+            "match": {
+              "location": "STM2485.clickOnNextButton4()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0aaedf00-6889-46d8-b615-33244ee037e4"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click on the Next Button successfully removed5",
+            "match": {
+              "location": "STM2485.clickOnNextButton5()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "98231cf4-1a4b-475b-8020-f8a390823fdd"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I wait for Couple of seconds6",
+            "match": {
+              "location": "STM2485.waitForSeconds1()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "70eb4ca2-750d-4ba8-b7d2-3f915ce2119b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I click on the id\u003dDavid-Wrenn",
+            "match": {
+              "location": "STM2485.checkOnDavidWrenn()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c8ed81f0-4fd5-46e0-b417-c066e7f0711b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I click on the id\u003dConcession-Type to see the all itemes in the list",
+            "match": {
+              "location": "STM2485.ClickOnConcession()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a26a972b-a0b7-481d-b180-b2da03244a8d"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I click on the id\u003d\u0027Account-Holder\u0027 from the dropdown list",
+            "match": {
+              "location": "STM2485.clickOnAccountHolder()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8c3cc9dd-57a9-40e8-a9e1-12810406771e"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I click on the Next Button6",
+            "match": {
+              "location": "STM2485.clickOnNextButton6()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7cb39f93-48d7-4818-819c-9b9dc7bf6061"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I check the Privacy-Statement",
+            "match": {
+              "location": "STM2485.checkPrivacyStatement()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "43597d5f-b45e-4198-90d3-d4c4f987e911"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I enter 305237600C into the Card Number",
+            "match": {
+              "location": "STM2485.enterCardNumber()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1849d4e2-d4b5-475c-9bad-0435447cb89b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I click on the Concession Card Type",
+            "match": {
+              "location": "STM2485.clickOnConcessionCardType()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "56b1b467-a1f9-42ed-97c0-704e69acdc51"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I choose the Pensioner Concession Card from the dropdown list",
+            "match": {
+              "location": "STM2485.chooseConcessionCardType()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "83a99387-27c0-477e-b45b-1cafc6e01e86"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "I click on the Next Button7",
+            "match": {
+              "location": "STM2485.clickOnNextButton7()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3fedcf54-a8df-4328-976d-5bea03f4b64e"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "I check the Yes-Add-Concession-Radio-Button",
+            "match": {
+              "location": "STM2485.checkRadioButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "02b9de2a-f90c-47ba-98d3-9eade7d3039b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "I click on the Next Button8",
+            "match": {
+              "location": "STM2485.clickOnNextButton8()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bea064aa-2538-4aa9-9106-68f11c7816f5"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "I verify that the phrase Successfuly Added present",
+            "match": {
+              "location": "STM2485.verifyPhraseIsPresent()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "161b84ba-9619-4bc6-bad6-25814282f715"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "I click on the Next Button9",
+            "match": {
+              "location": "STM2485.clickOnNextButton9()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "316f336e-d6cb-4908-9c91-658145af0e9e"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I click on the Finish-Button",
+            "match": {
+              "location": "STM2485.clickOnFinishButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ef22f14d-1e3d-4192-bfcd-7b997027c3e3"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I close the browser",
+            "match": {
+              "location": "STM2485.closeBrowser()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "67893d09-ee46-4a9c-a389-213846f8465a"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management",
+    "description": "",
+    "id": "concession-management",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485.feature",
+    "tags": []
+  }
+]

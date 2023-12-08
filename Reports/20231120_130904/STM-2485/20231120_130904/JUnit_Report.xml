@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STM-2485" time="235.298" tests="2" failures="1" errors="0">
+   <testsuite name="STM-2485" tests="2" failures="1" errors="0" time="235.298" skipped="0" timestamp="2023-11-20 13:09:12" hostname="HamidSamavat - DESKTOP-BG27TAB" id="Test Suites/STM-2485">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904"/>
+         <property name="logFiles" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904\\1700446271755.png, C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904\\1700446385505.png"/>
+         <property name="hostName" value="HamidSamavat - DESKTOP-BG27TAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.127"/>
+         <property name="sessionId" value="cc0969737f77b6b36622a8f19acc0cc1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD" time="119.337" classname="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+"/>
+         <system-out><![CDATA[2023-11-20 13:09:13 - [TEST_CASE][FAILED] - Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+
+
+2023-11-20 13:09:14 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/Concession Management/Iteration1.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+)
+
+2023-11-20 13:09:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Concession Management/Iteration1.feature' and extract report to folder: 'C:\Users\HamidSamavat\Desktop\Katalon\Salesforce-MFA-Login-main\Salesforce-MFA-Login-main\Reports\20231120_130904\STM-2485\20231120_130904/cucumber_report/1700446154288'...
+
+2023-11-20 13:09:16 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Concession loaded successfully: SCENARIO Concession loaded successfully FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/IFrames/Concession/Yes-Radio-Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at ✽.I remove the concession for David Wrenn from Billing account(C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Concession Management/Iteration1.feature:17)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IFrames/Concession/Yes-Radio-Button' located by '//label[@id='RADIO-LABEL-0-23']//span[@class='slds-radio_faux']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+
+
+2023-11-20 13:09:16 - [TEST_STEP][PASSED] - I open a browser and after I max window I navigate to SF homepage: I open a browser and after I max window I navigate to SF homepage
+
+2023-11-20 13:09:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-20 13:09:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-20 13:09:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-20 13:09:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-20 13:09:26 - [MESSAGE][PASSED] - Navigate to 'https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2023-11-20 13:09:26 - [MESSAGE][PASSED] - I open a browser and after I max window I navigate to SF homepage
+
+2023-11-20 13:09:26 - [TEST_STEP][PASSED] - I enter my credentials and login to the page: I enter my credentials and login to the page
+
+2023-11-20 13:09:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-20 13:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Input-Username' is clicked on
+
+2023-11-20 13:09:28 - [MESSAGE][PASSED] - Text 'hamid.samavat@kjr.com.au' is set on object 'Object Repository/Page_Login  Salesforce/input-username-Text'
+
+2023-11-20 13:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input-username-next' is clicked on
+
+2023-11-20 13:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+2023-11-20 13:09:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2023-11-20 13:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-11-20 13:09:46 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-11-20 13:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Yes button' is clicked on
+
+2023-11-20 13:09:53 - [MESSAGE][PASSED] - I enter my credentials and login to the page
+
+2023-11-20 13:09:53 - [TEST_STEP][PASSED] - I click on the Gear icon and open the setup page: I click on the Gear icon and open the setup page
+
+2023-11-20 13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Gear icon' is clicked on
+
+2023-11-20 13:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Setup' is clicked on
+
+2023-11-20 13:09:56 - [MESSAGE][PASSED] - I click on the Gear icon and open the setup page
+
+2023-11-20 13:09:56 - [TEST_STEP][PASSED] - I click on the Search and search for Diana Turney: I click on the Search and search for Diana Turney
+
+2023-11-20 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Search' is clicked on
+
+2023-11-20 13:09:59 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-11-20 13:09:59 - [MESSAGE][PASSED] - Text 'Diana Turney' is set on object 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-20 13:10:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-20 13:10:05 - [MESSAGE][PASSED] - Object 'Object Repository/Home-Setup/Diana Turney' is clickable
+
+2023-11-20 13:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Diana Turney' is clicked on
+
+2023-11-20 13:10:09 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/setup-users' is present
+
+2023-11-20 13:10:10 - [MESSAGE][PASSED] - I click on the Search and search for Diana Turney
+
+2023-11-20 13:10:10 - [TEST_STEP][PASSED] - I click on the login button on setup user page for Diana Turney: I click on the login button on setup user page for Diana Turney
+
+2023-11-20 13:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/login button' is clicked on
+
+2023-11-20 13:10:11 - [MESSAGE][PASSED] - I click on the login button on setup user page for Diana Turney
+
+2023-11-20 13:10:11 - [TEST_STEP][PASSED] - I search for Billing Account# 188051: I search for Billing Account# 188051
+
+2023-11-20 13:10:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/search catagory' is clicked on
+
+2023-11-20 13:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/Billing-Account-Search-Box' is clicked on
+
+2023-11-20 13:10:24 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Search box' is present
+
+2023-11-20 13:10:25 - [MESSAGE][PASSED] - Text '188051' is set on object 'Object Repository/Service-Console/Search box'
+
+2023-11-20 13:10:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Service-Console/Search box'
+
+2023-11-20 13:10:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@class="slds-table forceRecordLayout slds-table--header-fixed slds-table--edit slds-table--bordered resizable-cols slds-table--resizable-cols uiVirtualDataTable"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-20 13:10:37 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Service-Console/Billing-Account' located by '//table[@class="slds-table forceRecordLayout slds-table--header-fixed slds-table--edit slds-table--bordered resizable-cols slds-table--resizable-cols uiVirtualDataTable"]' not found
+
+2023-11-20 13:10:37 - [MESSAGE][INFO] - Element with text '2107505' not found.
+
+2023-11-20 13:10:37 - [MESSAGE][PASSED] - I search for Billing Account# 188051
+
+2023-11-20 13:10:37 - [TEST_STEP][PASSED] - I choose Concession from Dropdwn-List: I choose Concession from Dropdwn-List
+
+2023-11-20 13:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Button-List-Dropdwn' is clicked on
+
+2023-11-20 13:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Concession' is clicked on
+
+2023-11-20 13:10:40 - [MESSAGE][PASSED] - I choose Concession from Dropdwn-List
+
+2023-11-20 13:10:40 - [TEST_STEP][FAILED] - I remove the concession for David Wrenn from Billing account: I remove the concession for David Wrenn from Billing account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/IFrames/Concession/Yes-Radio-Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at ✽.I remove the concession for David Wrenn from Billing account(C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Concession Management/Iteration1.feature:17)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IFrames/Concession/Yes-Radio-Button' located by '//label[@id='RADIO-LABEL-0-23']//span[@class='slds-radio_faux']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+
+
+2023-11-20 13:11:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //label[@id='RADIO-LABEL-0-23']//span[@class='slds-radio_faux']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-20 13:11:11 - [MESSAGE][FAILED] - Unable to check object 'Object Repository/IFrames/Concession/Yes-Radio-Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/IFrames/Concession/Yes-Radio-Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IFrames/Concession/Yes-Radio-Button' located by '//label[@id='RADIO-LABEL-0-23']//span[@class='slds-radio_faux']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Script1699954368044.run(Script1699954368044.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904\\1700446271755.png]]
+
+2023-11-20 13:11:11 - [MESSAGE][FAILED] - I remove the concession for David Wrenn from Billing account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object 'Object Repository/IFrames/Concession/Yes-Radio-Button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at ✽.I remove the concession for David Wrenn from Billing account(C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Concession Management/Iteration1.feature:17)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IFrames/Concession/Yes-Radio-Button' located by '//label[@id='RADIO-LABEL-0-23']//span[@class='slds-radio_faux']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1069)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$12.call(Unknown Source)
+	at STM2485Iteration1.clickOnNextButton(STM2485Iteration1.groovy:127)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:70)
+	at cucumber.runner.TestStep.run(TestStep.java:52)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I add a new concession in billing account for David Wrenn: I add a new concession in billing account for David Wrenn
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I add a new concession in billing account for David Wrenn
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I config the options in Concession Management page: I config the options in Concession Management page
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I config the options in Concession Management page
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I click on Yes to add the concession: I click on Yes to add the concession
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I click on Yes to add the concession
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I verify that the phrase Successfuly Added present and take a full screenshot: I verify that the phrase Successfuly Added present and take a full screenshot
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I verify that the phrase Successfuly Added present and take a full screenshot
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I click on the Finish Button: I click on the Finish Button
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I click on the Finish Button
+
+2023-11-20 13:11:11 - [TEST_STEP][NOT_RUN] - I take a full screenshot and close the browser: I take a full screenshot and close the browser
+
+2023-11-20 13:11:11 - [MESSAGE][NOT_RUN] - I take a full screenshot and close the browser
+
+2023-11-20 13:11:12 - [MESSAGE][FAILED] - Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+
+2023-11-20 13:11:12 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2023-11-20 13:09:13 - [TEST_CASE][FAILED] - Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD" time="115.01" classname="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD" status="PASSED">
+         <system-out><![CDATA[2023-11-20 13:11:12 - [TEST_CASE][PASSED] - Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD
+
+2023-11-20 13:11:14 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Concession Management/Iteration5.feature"): Feature file: 'Include/features/Concession Management/Iteration5.feature' was passed
+
+2023-11-20 13:11:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Concession Management/Iteration5.feature' and extract report to folder: 'C:\Users\HamidSamavat\Desktop\Katalon\Salesforce-MFA-Login-main\Salesforce-MFA-Login-main\Reports\20231120_130904\STM-2485\20231120_130904/cucumber_report/1700446274065'...
+
+2023-11-20 13:11:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Concession not loaded successfully: SCENARIO Concession not loaded successfully
+
+2023-11-20 13:11:14 - [TEST_STEP][PASSED] - I open a browser and after I max window I navigate to SF homepage: I open a browser and after I max window I navigate to SF homepage
+
+2023-11-20 13:11:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-11-20 13:11:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-20 13:11:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-20 13:11:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-20 13:11:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-20 13:11:20 - [MESSAGE][PASSED] - Navigate to 'https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2023-11-20 13:11:20 - [MESSAGE][PASSED] - I open a browser and after I max window I navigate to SF homepage
+
+2023-11-20 13:11:20 - [TEST_STEP][PASSED] - I enter my credentials and login to the page: I enter my credentials and login to the page
+
+2023-11-20 13:11:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-20 13:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Input-Username' is clicked on
+
+2023-11-20 13:11:22 - [MESSAGE][PASSED] - Text 'hamid.samavat@kjr.com.au' is set on object 'Object Repository/Page_Login  Salesforce/input-username-Text'
+
+2023-11-20 13:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input-username-next' is clicked on
+
+2023-11-20 13:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+2023-11-20 13:11:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2023-11-20 13:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-11-20 13:11:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-11-20 13:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Yes button' is clicked on
+
+2023-11-20 13:11:41 - [MESSAGE][PASSED] - I enter my credentials and login to the page
+
+2023-11-20 13:11:41 - [TEST_STEP][PASSED] - I click on the Gear icon and open the setup page: I click on the Gear icon and open the setup page
+
+2023-11-20 13:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Gear icon' is clicked on
+
+2023-11-20 13:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Setup' is clicked on
+
+2023-11-20 13:11:50 - [MESSAGE][PASSED] - I click on the Gear icon and open the setup page
+
+2023-11-20 13:11:50 - [TEST_STEP][PASSED] - I click on the Search and search for Diana Turney: I click on the Search and search for Diana Turney
+
+2023-11-20 13:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Search' is clicked on
+
+2023-11-20 13:11:52 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-11-20 13:11:54 - [MESSAGE][PASSED] - Text 'Diana Turney' is set on object 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-20 13:11:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-20 13:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Home-Setup/Diana Turney' is clickable
+
+2023-11-20 13:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Diana Turney' is clicked on
+
+2023-11-20 13:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/setup-users' is present
+
+2023-11-20 13:12:02 - [MESSAGE][PASSED] - I click on the Search and search for Diana Turney
+
+2023-11-20 13:12:02 - [TEST_STEP][PASSED] - I click on the login button on setup user page for Diana Turney: I click on the login button on setup user page for Diana Turney
+
+2023-11-20 13:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/login button' is clicked on
+
+2023-11-20 13:12:02 - [MESSAGE][PASSED] - I click on the login button on setup user page for Diana Turney
+
+2023-11-20 13:12:02 - [TEST_STEP][PASSED] - I search for Billing Account# 1834935: I search for Billing Account# 1834935
+
+2023-11-20 13:12:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/search catagory' is clicked on
+
+2023-11-20 13:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/Billing-Account-Search-Box' is clicked on
+
+2023-11-20 13:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Search box' is present
+
+2023-11-20 13:12:15 - [MESSAGE][PASSED] - Text '1834935' is set on object 'Object Repository/Service-Console/Search box'
+
+2023-11-20 13:12:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Service-Console/Search box'
+
+2023-11-20 13:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Billing-Account' is clickable
+
+2023-11-20 13:12:18 - [MESSAGE][PASSED] - I search for Billing Account# 1834935
+
+2023-11-20 13:12:18 - [TEST_STEP][PASSED] - I choose Concession from Dropdwn-List- for negative scenario: I choose Concession from Dropdwn-List- for negative scenario
+
+2023-11-20 13:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Button-List-Dropdwn' is clicked on
+
+2023-11-20 13:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Concession' is clicked on
+
+2023-11-20 13:12:23 - [MESSAGE][PASSED] - I choose Concession from Dropdwn-List- for negative scenario
+
+2023-11-20 13:12:23 - [TEST_STEP][PASSED] - I create a new concession for Justin-Halcon-Fleur-Colcheedas: I create a new concession for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-20 13:12:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Justin-Halcon-Fleur-Colcheedas' is checked
+
+2023-11-20 13:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Type' is clicked on
+
+2023-11-20 13:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Account-Holder' is clicked on
+
+2023-11-20 13:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-20 13:12:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:12:43 - [MESSAGE][PASSED] - I create a new concession for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-20 13:12:43 - [TEST_STEP][PASSED] - I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas: I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-20 13:12:44 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Privacy-Statement-CheckBox' is checked
+
+2023-11-20 13:12:44 - [MESSAGE][PASSED] - Text '4035324226C' is set on object 'Object Repository/IFrames/Concession/Concession-Card-Num'
+
+2023-11-20 13:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Card-Type' is clicked on
+
+2023-11-20 13:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Health-Care-Card' is clicked on
+
+2023-11-20 13:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-20 13:12:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:12:54 - [MESSAGE][PASSED] - I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-20 13:12:54 - [TEST_STEP][PASSED] - I click on Yes,add concession radio button to procced the progress: I click on Yes,add concession radio button to procced the progress
+
+2023-11-20 13:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Yes-Add-Concession-Radio-Button' is checked
+
+2023-11-20 13:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-20 13:13:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-20 13:13:05 - [MESSAGE][PASSED] - I click on Yes,add concession radio button to procced the progress
+
+2023-11-20 13:13:05 - [TEST_STEP][PASSED] - I capture the text which is the concession was not successfully added: I capture the text which is the concession was not successfully added
+
+2023-11-20 13:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-20 13:13:05 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Not-Successfully-Added' is present
+
+2023-11-20 13:13:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/IFrames/Concession/Not-Successfully-Added' is: 'The concession was not successfully added to the billing account. An error occurred at the billing system.'
+
+2023-11-20 13:13:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-20 13:13:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231120_130904\\STM-2485\\20231120_130904\\1700446385505.png]]
+
+2023-11-20 13:13:07 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-20 13:13:07 - [MESSAGE][PASSED] - I capture the text which is the concession was not successfully added
+
+2023-11-20 13:13:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/Concession Management/Iteration5.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-20 13:09:12 - [TEST_SUITE][FAILED] - STM-2485: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-11-20 13:09:12 - [TEST_SUITE][FAILED] - STM-2485: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Concession Management/Iteration1.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at STM-2485-Iteration1-BDD.run(STM-2485-Iteration1-BDD:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1700446144256.run(TempTestSuite1700446144256.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

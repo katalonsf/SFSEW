@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3943483100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26680061300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3318005700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13334278500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Search and search for Frank Murray",
+            "match": {
+              "location": "STM2420.findCsoUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469183400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login button on setup user page for Frank Murray",
+            "match": {
+              "location": "STM2420.clickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34735071600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I try fo find billing acount 1042163",
+            "match": {
+              "location": "STM2420.clickOnSearchAll()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 413023800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Delete the unnecessary cookies",
+            "match": {
+              "location": "STM2420.deleteCookies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11304636500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I reload the page",
+            "match": {
+              "location": "STM2420.reloadCurrentPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30799733900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on CCPaument button for Frank Murray",
+            "match": {
+              "location": "STM2420.clickOnCcPayment()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Validate Credit Card Payments via a SEW CSO Pulse Front End",
+        "description": "",
+        "id": "per-field-validation-1;validate-credit-card-payments-via-a-sew-cso-pulse-front-end;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 520376300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Credit Card Type and select Visa for AARON P CROSS",
+            "match": {
+              "location": "STM2420.definePaymentDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894879800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter credit card number for AARON P CROSS",
+            "match": {
+              "location": "STM2420.enterCredit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6379417500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I set the expiry date",
+            "match": {
+              "location": "STM2420.setExpiry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192144000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set the customer name",
+            "match": {
+              "location": "STM2420.setcusname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203735500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I set the CVV",
+            "match": {
+              "location": "STM2420.setCVV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210165400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I set the Amount",
+            "match": {
+              "location": "STM2420.setAmount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134870100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter on Submit to submit the payment form",
+            "match": {
+              "location": "STM2420.clickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11903028900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I take an screenshot of the successful payment page",
+            "match": {
+              "location": "STM2420.takeScreenshotPaymentSuccess()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login,"
+          },
+          {
+            "name": "@LoginAsCFO"
+          }
+        ]
+      }
+    ],
+    "name": "Per field validation 1",
+    "description": "",
+    "id": "per-field-validation-1",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Per Field Validation/STM-2420.feature",
+    "tags": []
+  }
+]

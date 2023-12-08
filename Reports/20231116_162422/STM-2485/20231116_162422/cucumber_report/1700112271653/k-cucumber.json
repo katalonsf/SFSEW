@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "66861d95-d251-42ab-a710-a9e0dfc44c4b",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4239183400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ee115f56-fe78-4814-8fbd-af3eeac6b11d"
+          },
+          {
+            "result": {
+              "duration": 21714396200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "da64354d-b53d-4a99-92e9-46afac37d6c8"
+          },
+          {
+            "result": {
+              "duration": 4055271300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "955428ca-e884-4b9b-8376-709bc7624e56"
+          },
+          {
+            "result": {
+              "duration": 10936074600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Search and search for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearch()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a8e92563-b74b-4d66-bd6b-651535d77d3f"
+          },
+          {
+            "result": {
+              "duration": 342370100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button on setup user page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "71915702-bb7e-429f-a8d2-eb9d4d758d72"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "66861d95-d251-42ab-a710-a9e0dfc44c4b",
+        "line": 27,
+        "name": "Concession loaded successfully",
+        "description": "",
+        "id": "concession-management;concession-loaded-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14819756600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for Billing Account# 188051",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearchAll()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a4d8e87e-12ad-495d-a9f7-a64d4fca3b7b"
+          },
+          {
+            "result": {
+              "duration": 4662675100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I choose Concession from Dropdwn-List",
+            "match": {
+              "location": "STM2485Iteration1.clickToSeeAllItemsInList()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "4340c6ae-e36a-4100-b800-a8321b9d75e1"
+          },
+          {
+            "result": {
+              "duration": 19191950900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I remove the concession for David Wrenn from Billing account",
+            "match": {
+              "location": "STM2485Iteration1.clickOnNextButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ea803144-886d-41a4-863a-5b9abeef4e1b"
+          },
+          {
+            "result": {
+              "duration": 651972700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I add a new concession in billing account for David Wrenn",
+            "match": {
+              "location": "STM2485Iteration1.checkOnDavidWrenn()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "821201a1-f263-4764-9efb-93deae1f45ad"
+          },
+          {
+            "result": {
+              "duration": 1254455000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I config the options in Concession Management page",
+            "match": {
+              "location": "STM2485Iteration1.checkPrivacyStatement()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "30fc0c43-255d-4bad-9bca-c9c07ab0c424"
+          },
+          {
+            "result": {
+              "duration": 1764841800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Yes to add the concession",
+            "match": {
+              "location": "STM2485Iteration1.checkRadioButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "093d3a35-a7e7-418e-bcc2-77c0fc7881cc"
+          },
+          {
+            "result": {
+              "duration": 15040683200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify that the phrase Successfuly Added present and take a full screenshot",
+            "match": {
+              "location": "STM2485Iteration1.verifyPhraseIsPresent()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9c90603b-4589-4128-b35b-300b249405ec"
+          },
+          {
+            "result": {
+              "duration": 542666000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the Finish Button",
+            "match": {
+              "location": "STM2485Iteration1.clickOnFinishButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fb95d661-49f3-4e1f-9cd6-918b2e817c40"
+          },
+          {
+            "result": {
+              "duration": 1477160700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I take a full screenshot and close the browser",
+            "match": {
+              "location": "STM2485Iteration1.closeBrowser()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "74ef3d41-5823-409d-bcd0-0a5384f8524a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management",
+    "description": "",
+    "id": "concession-management",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/STM-2485/Iteration1.feature",
+    "tags": []
+  }
+]

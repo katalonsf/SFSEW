@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STM-2485,Chrome 119.0.0.0,,,2023-11-20 09:04:59,2023-11-20 09:08:24,3m - 25.068s,FAILED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD,Chrome 119.0.0.0,,,2023-11-20 09:05:00,2023-11-20 09:06:39,1m - 39.557s,FAILED
+"runFeatureFile(""Include/features/Concession Management/Iteration1.feature"")",Chrome 119.0.0.0,,,2023-11-20 09:05:00,2023-11-20 09:06:39,1m - 39.077s,FAILED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD,Chrome 119.0.0.0,,,2023-11-20 09:06:39,2023-11-20 09:08:24,1m - 45.145s,PASSED
+"runFeatureFile(""Include/features/Concession Management/Iteration5.feature"")",Chrome 119.0.0.0,,,2023-11-20 09:06:40,2023-11-20 09:08:24,1m - 44.530s,PASSED

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="139.97593">
+<testcase classname="Per field validation 1" name="Validate Credit Card Payments via a SEW CSO Pulse Front End" time="139.97593">
+<system-out><![CDATA[Given I open a browser and after I max window I navigate to SF homepage.....passed
+When I enter my credentials and login to the page...........................passed
+Then I click on the Gear icon and open the setup page.......................passed
+And I click on the Search and search for Frank Murray.......................passed
+And I click on the login button on setup user page for Frank Murray.........passed
+And I try fo find billing acount 1042163....................................passed
+And I Delete the unnecessary cookies........................................passed
+And I reload the page.......................................................passed
+And I click on CCPaument button for Frank Murray............................passed
+And I click on Credit Card Type and select Visa for AARON P CROSS...........passed
+And I enter credit card number for AARON P CROSS............................passed
+And I set the expiry date...................................................passed
+And I set the customer name.................................................passed
+And I set the CVV...........................................................passed
+And I set the Amount........................................................passed
+And I enter on Submit to submit the payment form............................passed
+And I take an screenshot of the successful payment page.....................passed
+]]></system-out>
+</testcase>
+</testsuite>
