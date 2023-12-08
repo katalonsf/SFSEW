@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='Billing_Account__c.PLT_CCPayment']</value>
+         <value>(//button[normalize-space(text()) = 'CC Payment'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

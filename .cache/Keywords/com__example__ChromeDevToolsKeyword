@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "19A9674E96616F2C8DF1C36285A2EFBF",
+  "keywordClasses": [
+    {
+      "name": "com.example.ChromeDevToolsKeyword",
+      "keywordMethods": [
+        {
+          "name": "createChromeDevToolsService",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STM-2485" time="209.163" tests="2" failures="0" errors="0">
+   <testsuite name="STM-2485" tests="2" failures="0" errors="0" time="209.163" skipped="0" timestamp="2023-11-16 16:24:30" hostname="HamidSamavat - DESKTOP-BG27TAB" id="Test Suites/STM-2485">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422"/>
+         <property name="logFiles" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112360533.png, C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112372262.png, C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112478266.png"/>
+         <property name="hostName" value="HamidSamavat - DESKTOP-BG27TAB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="10.15.31.58"/>
+         <property name="sessionId" value="abd4247936f19cad077b73d49faf9be5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD" time="103.005" classname="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:24:30 - [TEST_CASE][PASSED] - Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD
+
+2023-11-16 16:24:31 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/STM-2485/Iteration1.feature"): Feature file: 'Include/features/STM-2485/Iteration1.feature' was passed
+
+2023-11-16 16:24:31 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/STM-2485/Iteration1.feature' and extract report to folder: 'C:\Users\HamidSamavat\Desktop\Katalon\Salesforce-MFA-Login-main\Salesforce-MFA-Login-main\Reports\20231116_162422\STM-2485\20231116_162422/cucumber_report/1700112271653'...
+
+2023-11-16 16:24:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Concession loaded successfully: SCENARIO Concession loaded successfully
+
+2023-11-16 16:24:33 - [TEST_STEP][PASSED] - I open a browser and after I max window I navigate to SF homepage: I open a browser and after I max window I navigate to SF homepage
+
+2023-11-16 16:24:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:24:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:24:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-16 16:24:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-16 16:24:37 - [MESSAGE][PASSED] - Navigate to 'https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2023-11-16 16:24:37 - [MESSAGE][PASSED] - I open a browser and after I max window I navigate to SF homepage
+
+2023-11-16 16:24:37 - [TEST_STEP][PASSED] - I enter my credentials and login to the page: I enter my credentials and login to the page
+
+2023-11-16 16:24:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-16 16:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Input-Username' is clicked on
+
+2023-11-16 16:24:39 - [MESSAGE][PASSED] - Text 'hamid.samavat@kjr.com.au' is set on object 'Object Repository/Page_Login  Salesforce/input-username-Text'
+
+2023-11-16 16:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input-username-next' is clicked on
+
+2023-11-16 16:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+2023-11-16 16:24:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2023-11-16 16:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-11-16 16:24:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-11-16 16:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Yes button' is clicked on
+
+2023-11-16 16:24:58 - [MESSAGE][PASSED] - I enter my credentials and login to the page
+
+2023-11-16 16:24:58 - [TEST_STEP][PASSED] - I click on the Gear icon and open the setup page: I click on the Gear icon and open the setup page
+
+2023-11-16 16:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Gear icon' is clicked on
+
+2023-11-16 16:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Setup' is clicked on
+
+2023-11-16 16:25:03 - [MESSAGE][PASSED] - I click on the Gear icon and open the setup page
+
+2023-11-16 16:25:03 - [TEST_STEP][PASSED] - I click on the Search and search for Diana Turney: I click on the Search and search for Diana Turney
+
+2023-11-16 16:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Search' is clicked on
+
+2023-11-16 16:25:06 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-11-16 16:25:07 - [MESSAGE][PASSED] - Text 'Diana Turney' is set on object 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-16 16:25:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-16 16:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home-Setup/Diana Turney' is clickable
+
+2023-11-16 16:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Diana Turney' is clicked on
+
+2023-11-16 16:25:13 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/setup-users' is present
+
+2023-11-16 16:25:13 - [MESSAGE][PASSED] - I click on the Search and search for Diana Turney
+
+2023-11-16 16:25:13 - [TEST_STEP][PASSED] - I click on the login button on setup user page: I click on the login button on setup user page
+
+2023-11-16 16:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/login button' is clicked on
+
+2023-11-16 16:25:14 - [MESSAGE][PASSED] - I click on the login button on setup user page
+
+2023-11-16 16:25:14 - [TEST_STEP][PASSED] - I search for Billing Account# 188051: I search for Billing Account# 188051
+
+2023-11-16 16:25:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/search catagory' is clicked on
+
+2023-11-16 16:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/Billing-Account-Search-Box' is clicked on
+
+2023-11-16 16:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Search box' is present
+
+2023-11-16 16:25:26 - [MESSAGE][PASSED] - Text '188051' is set on object 'Object Repository/Service-Console/Search box'
+
+2023-11-16 16:25:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Service-Console/Search box'
+
+2023-11-16 16:25:28 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Billing-Account' is clickable
+
+2023-11-16 16:25:29 - [MESSAGE][PASSED] - I search for Billing Account# 188051
+
+2023-11-16 16:25:29 - [TEST_STEP][PASSED] - I choose Concession from Dropdwn-List: I choose Concession from Dropdwn-List
+
+2023-11-16 16:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Button-List-Dropdwn' is clicked on
+
+2023-11-16 16:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Concession' is clicked on
+
+2023-11-16 16:25:33 - [MESSAGE][PASSED] - I choose Concession from Dropdwn-List
+
+2023-11-16 16:25:33 - [TEST_STEP][PASSED] - I remove the concession for David Wrenn from Billing account: I remove the concession for David Wrenn from Billing account
+
+2023-11-16 16:25:34 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Yes-Radio-Button' is checked
+
+2023-11-16 16:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:36 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Yes-Remove-Radio-Button' is checked
+
+2023-11-16 16:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:25:52 - [MESSAGE][PASSED] - I remove the concession for David Wrenn from Billing account
+
+2023-11-16 16:25:52 - [TEST_STEP][PASSED] - I add a new concession in billing account for David Wrenn: I add a new concession in billing account for David Wrenn
+
+2023-11-16 16:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/David-Wrenn' is checked
+
+2023-11-16 16:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Type' is clicked on
+
+2023-11-16 16:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Account-Holder' is clicked on
+
+2023-11-16 16:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:53 - [MESSAGE][PASSED] - I add a new concession in billing account for David Wrenn
+
+2023-11-16 16:25:53 - [TEST_STEP][PASSED] - I config the options in Concession Management page: I config the options in Concession Management page
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Privacy-Statement-CheckBox' is checked
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - Text '305237600C' is set on object 'Object Repository/IFrames/Concession/Concession-Card-Num'
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Card-Type' is clicked on
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Pensioner-Concession-Card' is clicked on
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:54 - [MESSAGE][PASSED] - I config the options in Concession Management page
+
+2023-11-16 16:25:54 - [TEST_STEP][PASSED] - I click on Yes to add the concession: I click on Yes to add the concession
+
+2023-11-16 16:25:56 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Yes-Add-Concession-Radio-Button' is checked
+
+2023-11-16 16:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:25:56 - [MESSAGE][PASSED] - I click on Yes to add the concession
+
+2023-11-16 16:25:56 - [TEST_STEP][PASSED] - I verify that the phrase Successfuly Added present and take a full screenshot: I verify that the phrase Successfuly Added present and take a full screenshot
+
+2023-11-16 16:25:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Successfuly-Added' is present
+
+2023-11-16 16:26:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:26:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112360533.png]]
+
+2023-11-16 16:26:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:26:11 - [MESSAGE][PASSED] - I verify that the phrase Successfuly Added present and take a full screenshot
+
+2023-11-16 16:26:11 - [TEST_STEP][PASSED] - I click on the Finish Button: I click on the Finish Button
+
+2023-11-16 16:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Finish' is clicked on
+
+2023-11-16 16:26:12 - [MESSAGE][PASSED] - I click on the Finish Button
+
+2023-11-16 16:26:12 - [TEST_STEP][PASSED] - I take a full screenshot and close the browser: I take a full screenshot and close the browser
+
+2023-11-16 16:26:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:26:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112372262.png]]
+
+2023-11-16 16:26:13 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-16 16:26:13 - [MESSAGE][PASSED] - I take a full screenshot and close the browser
+
+2023-11-16 16:26:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/STM-2485/Iteration1.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD" time="105.85" classname="Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD" status="PASSED">
+         <system-out><![CDATA[2023-11-16 16:26:13 - [TEST_CASE][PASSED] - Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD
+
+2023-11-16 16:26:14 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/STM-2485/Iteration5.feature"): Feature file: 'Include/features/STM-2485/Iteration5.feature' was passed
+
+2023-11-16 16:26:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/STM-2485/Iteration5.feature' and extract report to folder: 'C:\Users\HamidSamavat\Desktop\Katalon\Salesforce-MFA-Login-main\Salesforce-MFA-Login-main\Reports\20231116_162422\STM-2485\20231116_162422/cucumber_report/1700112374566'...
+
+2023-11-16 16:26:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Concession not loaded successfully: SCENARIO Concession not loaded successfully
+
+2023-11-16 16:26:14 - [TEST_STEP][PASSED] - I open a browser and after I max window I navigate to SF homepage: I open a browser and after I max window I navigate to SF homepage
+
+2023-11-16 16:26:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-16 16:26:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-16 16:26:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-11-16 16:26:16 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-16 16:26:17 - [MESSAGE][PASSED] - Navigate to 'https://southeastwater--full2.sandbox.lightning.force.com/lightning/page/home' successfully
+
+2023-11-16 16:26:17 - [MESSAGE][PASSED] - I open a browser and after I max window I navigate to SF homepage
+
+2023-11-16 16:26:17 - [TEST_STEP][PASSED] - I enter my credentials and login to the page: I enter my credentials and login to the page
+
+2023-11-16 16:26:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-16 16:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Input-Username' is clicked on
+
+2023-11-16 16:26:19 - [MESSAGE][PASSED] - Text 'hamid.samavat@kjr.com.au' is set on object 'Object Repository/Page_Login  Salesforce/input-username-Text'
+
+2023-11-16 16:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input-username-next' is clicked on
+
+2023-11-16 16:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_pw' is clicked on
+
+2023-11-16 16:26:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Salesforce/input_Password_pw'
+
+2023-11-16 16:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/input_Password_Login' is clicked on
+
+2023-11-16 16:26:37 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-11-16 16:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Salesforce/Yes button' is clicked on
+
+2023-11-16 16:26:42 - [MESSAGE][PASSED] - I enter my credentials and login to the page
+
+2023-11-16 16:26:42 - [TEST_STEP][PASSED] - I click on the Gear icon and open the setup page: I click on the Gear icon and open the setup page
+
+2023-11-16 16:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Gear icon' is clicked on
+
+2023-11-16 16:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/home page/Setup' is clicked on
+
+2023-11-16 16:26:44 - [MESSAGE][PASSED] - I click on the Gear icon and open the setup page
+
+2023-11-16 16:26:44 - [TEST_STEP][PASSED] - I click on the Search and search for Diana Turney: I click on the Search and search for Diana Turney
+
+2023-11-16 16:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Search' is clicked on
+
+2023-11-16 16:26:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-11-16 16:26:48 - [MESSAGE][PASSED] - Text 'Diana Turney' is set on object 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-16 16:26:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Home-Setup/Search-add-values'
+
+2023-11-16 16:26:52 - [MESSAGE][PASSED] - Object 'Object Repository/Home-Setup/Diana Turney' is clickable
+
+2023-11-16 16:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Home-Setup/Diana Turney' is clicked on
+
+2023-11-16 16:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/setup-users' is present
+
+2023-11-16 16:26:56 - [MESSAGE][PASSED] - I click on the Search and search for Diana Turney
+
+2023-11-16 16:26:56 - [TEST_STEP][PASSED] - I click on the login button on setup user page: I click on the login button on setup user page
+
+2023-11-16 16:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/login button' is clicked on
+
+2023-11-16 16:26:56 - [MESSAGE][PASSED] - I click on the login button on setup user page
+
+2023-11-16 16:26:56 - [TEST_STEP][PASSED] - I search for Billing Account# 1834935: I search for Billing Account# 1834935
+
+2023-11-16 16:27:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/search catagory' is clicked on
+
+2023-11-16 16:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Service-Console/Billing-Account-Search-Box' is clicked on
+
+2023-11-16 16:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Search box' is present
+
+2023-11-16 16:27:08 - [MESSAGE][PASSED] - Text '1834935' is set on object 'Object Repository/Service-Console/Search box'
+
+2023-11-16 16:27:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Service-Console/Search box'
+
+2023-11-16 16:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/Service-Console/Billing-Account' is clickable
+
+2023-11-16 16:27:10 - [MESSAGE][PASSED] - I search for Billing Account# 1834935
+
+2023-11-16 16:27:10 - [TEST_STEP][PASSED] - I choose Concession from Dropdwn-List- for negative scenario: I choose Concession from Dropdwn-List- for negative scenario
+
+2023-11-16 16:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Button-List-Dropdwn' is clicked on
+
+2023-11-16 16:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Billing-Account-Num/Button-List/Concession' is clicked on
+
+2023-11-16 16:27:15 - [MESSAGE][PASSED] - I choose Concession from Dropdwn-List- for negative scenario
+
+2023-11-16 16:27:15 - [TEST_STEP][PASSED] - I create a new concession for Justin-Halcon-Fleur-Colcheedas: I create a new concession for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-16 16:27:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Justin-Halcon-Fleur-Colcheedas' is checked
+
+2023-11-16 16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Type' is clicked on
+
+2023-11-16 16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Account-Holder' is clicked on
+
+2023-11-16 16:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:27:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:27:36 - [MESSAGE][PASSED] - I create a new concession for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-16 16:27:36 - [TEST_STEP][PASSED] - I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas: I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-16 16:27:36 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Privacy-Statement-CheckBox' is checked
+
+2023-11-16 16:27:37 - [MESSAGE][PASSED] - Text '4035324226C' is set on object 'Object Repository/IFrames/Concession/Concession-Card-Num'
+
+2023-11-16 16:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Concession-Card-Type' is clicked on
+
+2023-11-16 16:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Health-Care-Card' is clicked on
+
+2023-11-16 16:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:27:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:27:47 - [MESSAGE][PASSED] - I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas
+
+2023-11-16 16:27:47 - [TEST_STEP][PASSED] - I click on Yes,add concession radio button to procced the progress: I click on Yes,add concession radio button to procced the progress
+
+2023-11-16 16:27:47 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Yes-Add-Concession-Radio-Button' is checked
+
+2023-11-16 16:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/IFrames/Concession/Next-Button' is clicked on
+
+2023-11-16 16:27:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-11-16 16:27:58 - [MESSAGE][PASSED] - I click on Yes,add concession radio button to procced the progress
+
+2023-11-16 16:27:58 - [TEST_STEP][PASSED] - I capture the text which is the concession was not successfully added: I capture the text which is the concession was not successfully added
+
+2023-11-16 16:27:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-16 16:27:58 - [MESSAGE][PASSED] - Object 'Object Repository/IFrames/Concession/Not-Successfully-Added' is present
+
+2023-11-16 16:27:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/IFrames/Concession/Not-Successfully-Added' is: 'The concession was not successfully added to the billing account. An error occurred at the billing system.'
+
+2023-11-16 16:27:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-11-16 16:27:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\HamidSamavat\\Desktop\\Katalon\\Salesforce-MFA-Login-main\\Salesforce-MFA-Login-main\\Reports\\20231116_162422\\STM-2485\\20231116_162422\\1700112478266.png]]
+
+2023-11-16 16:27:59 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-16 16:27:59 - [MESSAGE][PASSED] - I capture the text which is the concession was not successfully added
+
+2023-11-16 16:27:59 - [MESSAGE][PASSED] - Feature file: 'Include/features/STM-2485/Iteration5.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-16 16:24:30 - [TEST_SUITE][PASSED] - STM-2485: Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration5-BDD]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

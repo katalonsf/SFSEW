@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "5182BABECB9C204D5979601C18DF8798",
+  "keywordFileContentHash": "F16E0D07150DC946D8A98BA4F0498128",
   "keywordClasses": [
     {
       "name": "STM2420",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

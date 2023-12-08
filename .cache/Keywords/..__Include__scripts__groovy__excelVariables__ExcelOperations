@@ -1,0 +1,126 @@
+{
+  "keywordFileContentHash": "43BF0CE9AC12F8EA1BC9F904FE96B39B",
+  "keywordClasses": [
+    {
+      "name": "excelVariables.SwitchUserCFO",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.BillingAccountCFO",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.CreditCardNumber1",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.CreditCardNumber2",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.CreditCardNumber3",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.CreditCardNumber4",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.CVV",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.SwitchUserCSO",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.BillingAccountCSO",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.ConcessionCardNumber",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.BillingAccountCSONegative",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "excelVariables.ConcessionCardNumberNegative",
+      "keywordMethods": [
+        {
+          "name": "performExcelOperation",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="113.03234">
+<testcase classname="Concession Management negative" name="Concession not loaded successfully" time="113.03234">
+<system-out><![CDATA[Given I open a browser and after I max window I navigate to SF homepage.....passed
+When I enter my credentials and login to the page...........................passed
+Then I click on the Gear icon and open the setup page.......................passed
+And I click on the Search and search for Diana Turney.......................passed
+And I click on the login button on setup user page for Diana Turney.........passed
+And I search for Billing Account# 1834935...................................passed
+And I choose Concession from Dropdwn-List- for negative scenario............passed
+And I create a new concession for Justin-Halcon-Fleur-Colcheedas............passed
+And I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas.passed
+And I click on Yes,add concession radio button to procced the progress......passed
+And I capture the text which is the concession was not successfully added...passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+STM-2485,Chrome 119.0.0.0,,,2023-11-15 09:40:50,2023-11-15 09:42:18,1m - 27.721s,FAILED
+,,,,,,,
+Test Cases/Concession-Managment/STM-2485/STM-2485-Iteration1-BDD,Chrome 119.0.0.0,,,2023-11-15 09:40:51,2023-11-15 09:42:18,1m - 27.389s,FAILED
+"runFeatureFile(""Include/features/STM-2485.feature"")",Chrome 119.0.0.0,,,2023-11-15 09:40:51,2023-11-15 09:42:18,1m - 26.982s,FAILED

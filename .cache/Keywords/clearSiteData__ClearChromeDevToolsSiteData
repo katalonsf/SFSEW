@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "74FDA0F2811122DB2499FE09BFF77F34",
+  "keywordClasses": [
+    {
+      "name": "clearSiteData.ClearSiteDataKeyword",
+      "keywordMethods": [
+        {
+          "name": "clearSiteData",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

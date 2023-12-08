@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="100.966434">
+<testcase classname="Concession Management" name="Concession loaded successfully" time="100.966434">
+<system-out><![CDATA[Given I open a browser and after I max window I navigate to SF homepage.....passed
+When I enter my credentials and login to the page...........................passed
+Then I click on the Gear icon and open the setup page.......................passed
+And I click on the Search and search for Diana Turney.......................passed
+And I click on the login button on setup user page..........................passed
+And I search for Billing Account# 188051....................................passed
+And I choose Concession from Dropdwn-List...................................passed
+And I remove the concession for David Wrenn from Billing account............passed
+And I add a new concession in billing account for David Wrenn...............passed
+And I config the options in Concession Management page......................passed
+And I click on Yes to add the concession....................................passed
+And I verify that the phrase Successfuly Added present and take a full screenshot.passed
+And I click on the Finish Button............................................passed
+And I take a full screenshot and close the browser..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

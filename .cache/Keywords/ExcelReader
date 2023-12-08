@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "97272CE7E16B75BE493D2C8740404080",
+  "keywordClasses": [
+    {
+      "name": "ExcelReader",
+      "keywordMethods": []
+    },
+    {
+      "name": "ExcelReader$excelReader",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

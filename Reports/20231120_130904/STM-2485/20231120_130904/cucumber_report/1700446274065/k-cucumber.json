@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "b87609cd-b3e8-4648-9cd4-299794532022",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5682772400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "5748e8bc-1962-40b1-81c1-99170de4753b"
+          },
+          {
+            "result": {
+              "duration": 20700914800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "2201e69e-4a77-4422-b0b7-2298a9737752"
+          },
+          {
+            "result": {
+              "duration": 9237677600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "263cf00b-b27b-4387-b5b0-bdbe4b44b412"
+          },
+          {
+            "result": {
+              "duration": 11940744100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Search and search for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnSearch()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "376128e7-a310-4b60-abb3-cf658d3713af"
+          },
+          {
+            "result": {
+              "duration": 665205799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button on setup user page for Diana Turney",
+            "match": {
+              "location": "STM2485Iteration1.clickOnButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "74d745f2-5c59-4f49-8a0c-137235135914"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b87609cd-b3e8-4648-9cd4-299794532022",
+        "line": 25,
+        "name": "Concession not loaded successfully",
+        "description": "",
+        "id": "concession-management-negative;concession-not-loaded-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15107579699,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I search for Billing Account# 1834935",
+            "match": {
+              "location": "STM2485Iteration5.clickOnSearchAll()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "388d7617-8dea-4da6-84e2-41c9c7e52b55"
+          },
+          {
+            "result": {
+              "duration": 4974444600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I choose Concession from Dropdwn-List- for negative scenario",
+            "match": {
+              "location": "STM2485Iteration5.clickToDropdownList()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fa239875-de52-4e6e-a839-380ff7784e7b"
+          },
+          {
+            "result": {
+              "duration": 20831758999,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I create a new concession for Justin-Halcon-Fleur-Colcheedas",
+            "match": {
+              "location": "STM2485Iteration5.clickOnNextButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ba235e0a-8e41-41d1-a1d5-25086ac80799"
+          },
+          {
+            "result": {
+              "duration": 11010311600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I continue steps to create the new billing acount for Justin-Halcon-Fleur-Colcheedas",
+            "match": {
+              "location": "STM2485Iteration5.checkOnDavidWrenn()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "19d01bd6-935a-4cbb-904c-1c23dba68853"
+          },
+          {
+            "result": {
+              "duration": 10342341301,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Yes,add concession radio button to procced the progress",
+            "match": {
+              "location": "STM2485Iteration5.checkPrivacyStatement()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "41d1d7f3-c189-4608-990d-342244eb2bd1"
+          },
+          {
+            "result": {
+              "duration": 2493317301,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I capture the text which is the concession was not successfully added",
+            "match": {
+              "location": "STM2485Iteration5.checkRadioButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "d24d654c-4f73-43e0-96d7-567a8df85901"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login,"
+          },
+          {
+            "name": "@LoginAsDiana"
+          }
+        ]
+      }
+    ],
+    "name": "Concession Management negative",
+    "description": "",
+    "id": "concession-management-negative",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Concession Management/Iteration5.feature",
+    "tags": []
+  }
+]

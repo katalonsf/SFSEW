@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "542A6CC5E7C40EC99ABEF9E44A3D978D",
+  "keywordClasses": [
+    {
+      "name": "com.example.ClearSiteDataKeyword",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

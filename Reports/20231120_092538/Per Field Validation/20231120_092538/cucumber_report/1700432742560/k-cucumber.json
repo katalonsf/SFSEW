@@ -1,0 +1,263 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "2ea5db99-9edb-4223-93df-3f402a134869",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4185623700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open a browser and after I max window I navigate to SF homepage",
+            "match": {
+              "location": "STM2485Iteration1.navigateToSFHomepage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ac958901-8007-45ef-85e8-25109b476fa4"
+          },
+          {
+            "result": {
+              "duration": 20302497000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter my credentials and login to the page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnUsername()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f49b38bc-c140-4675-8097-4d2c7f9648b9"
+          },
+          {
+            "result": {
+              "duration": 5980070200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Gear icon and open the setup page",
+            "match": {
+              "location": "STM2485Iteration1.clickOnGearIcon()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "bc678b46-c3c2-4766-8fe6-666742721ec4"
+          },
+          {
+            "result": {
+              "duration": 11013543900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the Search and search for Frank Murray",
+            "match": {
+              "location": "STM2420.findCsoUser()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "fac60754-d3ef-46c5-8d3c-9be0aa3e3642"
+          },
+          {
+            "result": {
+              "duration": 282982300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the login button on setup user page for Frank Murray",
+            "match": {
+              "location": "STM2420.clickOnLogin()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "16b4de6a-9ad3-419b-a4f5-6963a08a0e13"
+          },
+          {
+            "result": {
+              "duration": 35110685400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I try fo find billing acount 1042163",
+            "match": {
+              "location": "STM2420.clickOnSearchAll()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "bc9dd8ce-c909-4937-9f12-aabd3ebd030f"
+          },
+          {
+            "result": {
+              "duration": 555406700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Delete the unnecessary cookies",
+            "match": {
+              "location": "STM2420.deleteCookies()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "87214ed0-5e31-4048-83f5-ad9b0ed7fc9c"
+          },
+          {
+            "result": {
+              "duration": 11235942100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I reload the page",
+            "match": {
+              "location": "STM2420.reloadCurrentPage()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f1448ad4-1c3f-4a35-8ed2-b2f254cb6630"
+          },
+          {
+            "result": {
+              "duration": 30836318200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on CCPaument button for Frank Murray",
+            "match": {
+              "location": "STM2420.clickOnCcPayment()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "403adf15-2d9f-49b6-951c-806a0413093d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "2ea5db99-9edb-4223-93df-3f402a134869",
+        "line": 30,
+        "name": "Validate Credit Card Payments via a SEW CSO Pulse Front End",
+        "description": "",
+        "id": "per-field-validation-1;validate-credit-card-payments-via-a-sew-cso-pulse-front-end;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 518425900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Credit Card Type and select Visa for AARON P CROSS",
+            "match": {
+              "location": "STM2420.definePaymentDetails()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f8add89f-fcc3-40bd-b21f-7aafb0cb6565"
+          },
+          {
+            "result": {
+              "duration": 799113200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter credit card number for AARON P CROSS",
+            "match": {
+              "location": "STM2420.enterCredit()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8268416a-38dd-4d9f-9b89-928e4a7368cc"
+          },
+          {
+            "result": {
+              "duration": 6353240800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I set the expiry date",
+            "match": {
+              "location": "STM2420.setExpiry()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "0b7fe5ce-e1e4-4966-bbe3-ded94dceab08"
+          },
+          {
+            "result": {
+              "duration": 220238900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set the customer name",
+            "match": {
+              "location": "STM2420.setcusname()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "b03788a7-1f76-4dfb-bcc7-b2343803ffbc"
+          },
+          {
+            "result": {
+              "duration": 185231700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I set the CVV",
+            "match": {
+              "location": "STM2420.setCVV()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5b59ad8b-2a91-4053-aaad-f8ce71622a3b"
+          },
+          {
+            "result": {
+              "duration": 227730500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I set the Amount",
+            "match": {
+              "location": "STM2420.setAmount()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a22811e3-7059-4681-8c37-f3702a822676"
+          },
+          {
+            "result": {
+              "duration": 139150900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter on Submit to submit the payment form",
+            "match": {
+              "location": "STM2420.clickSubmit()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9be16947-548c-4707-96a1-2805540a0637"
+          },
+          {
+            "result": {
+              "duration": 11839633200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I take an screenshot of the successful payment page",
+            "match": {
+              "location": "STM2420.takeScreenshotPaymentSuccess()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "8da1fb95-4518-47c6-9139-7787e2710561"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login,"
+          },
+          {
+            "name": "@LoginAsCFO"
+          }
+        ]
+      }
+    ],
+    "name": "Per field validation 1",
+    "description": "",
+    "id": "per-field-validation-1",
+    "keyword": "Feature",
+    "uri": "C:/Users/HamidSamavat/Desktop/Katalon/Salesforce-MFA-Login-main/Salesforce-MFA-Login-main/Include/features/Per Field Validation/STM-2420.feature",
+    "tags": []
+  }
+]

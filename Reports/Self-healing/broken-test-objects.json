@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder1/Page_Sign in to your account/input_Sign in_loginfmt",
+      "brokenLocator": "//input[@id\u003d\u0027i0116\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder1/Page_Home  Salesforce/div_Setup",
+      "brokenLocator": "//div[@id\u003d\u0027151:238;a\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Salesforce Help\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder1/Page_Home  Salesforce/div_Setup_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder1/Page_Home  Salesforce/div_Jade M Field",
+      "brokenLocator": "//a[@id\u003d\u00272512:0\u0027]/div[2]/span/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Custom App\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder1/Page_Home  Salesforce/div_Jade M Field_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Sign in to your account/input_Sign in_loginfmt",
+      "brokenLocator": "//input[@id\u003d\u0027i0116\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
